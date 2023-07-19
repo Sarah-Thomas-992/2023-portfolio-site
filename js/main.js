@@ -16,7 +16,7 @@ const aboutSection = document.querySelector("#about-me-section");
 aboutButton.addEventListener("click", function(){
     if (aboutSection.classList.contains("hide")){
         aboutSection.classList.remove("hide");
-        color2.style.backgroundColor= '#ff3c7a';
+        color2.style.backgroundColor= '#88ff00';
     } else {
         aboutSection.classList.add("hide");
         color2.style.backgroundColor= '#36bbb9';

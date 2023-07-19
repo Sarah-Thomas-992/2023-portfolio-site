@@ -89,7 +89,7 @@ textarea {
 
 /* General styles */
 
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,8 +105,21 @@ body{
   justify-items: flex-start;
 }
 
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 img {
-  width: 50%;
+  width: 70%;
+}
+
+p {
+  width: 90%;
+  margin: 10px 0;
 }
 
 .hide {
@@ -119,7 +132,7 @@ section {
   width: 100%;
 }
 
-button{ 
+button {
   background: none;
   border: none;
   padding: 10px 0 10px 20px;
@@ -164,7 +177,7 @@ h1 {
   margin-top: 10px;
 }
 
-header h2{ 
+header h2 {
   font-size: 1em;
   font-weight: 400;
   padding: 0 0 0 40px;
@@ -265,9 +278,9 @@ header h2{
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -278,6 +291,7 @@ header h2{
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -345,4 +359,3 @@ header h2{
     page-break-after: avoid;
   }
 }
-
