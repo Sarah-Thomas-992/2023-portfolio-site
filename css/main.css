@@ -114,7 +114,7 @@ body {
 }
 
 img {
-  width: 70%;
+  width: 80%;
 }
 
 p {
@@ -128,7 +128,10 @@ p {
 
 header,
 footer,
-section {
+section, 
+.header-words,
+.header-elements, 
+.skills-lists {
   width: 100%;
 }
 
@@ -137,8 +140,12 @@ button {
   border: none;
   padding: 10px 0 10px 20px;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 550;
   text-align: left;
+}
+
+button:hover{
+  text-decoration: underline 1px;
 }
 
 /* Color Swatch Styles */
@@ -170,6 +177,17 @@ button {
 
 /* Specific Styles */
 
+.header-elements{
+  display: flex;
+}
+
+.header-words{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 70vw;
+}
+
 h1 {
   font-family: 'Bebas Neue', sans-serif;
   padding-left: 20px;
@@ -184,6 +202,38 @@ header h2 {
   margin-top: 0;
 }
 
+.header-img {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 60%;
+  margin: 10px;
+}
+
+.skills-lists{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.skills-lists .skills-list{
+  width: 50vh;
+  margin: 5px 0 15px 0;
+}
+
+#skills-section ul {
+  list-style:circle;
+}
+
+#skills-section ul li {
+  padding: 4px 0;
+
+}
 
 /* ==========================================================================
    Helper classes
