@@ -131,7 +131,8 @@ footer,
 section, 
 .header-words,
 .header-elements, 
-.skills-lists {
+.skills-lists,
+.project {
   width: 100%;
 }
 
@@ -142,6 +143,12 @@ button {
   font-size: 1em;
   font-weight: 550;
   text-align: left;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover{
@@ -232,7 +239,18 @@ header img {
 
 #skills-section ul li {
   padding: 4px 0;
+}
 
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 10px 0;
+}
+
+.expand-project {
+  padding-left: 0;
 }
 
 /* ==========================================================================
