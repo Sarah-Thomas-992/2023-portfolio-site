@@ -50,7 +50,7 @@
       <div class="color-swatch" id="color-swatch2"></div>
       <button id="about-me-button">About Me</button>
       <div class="hide content" id="about-me-section">
-        <img src="./img/profile-square.jpg" alt="A girl with curly hair in a polka dot shirt">
+        <img id="about-me-img" src="./img/profile-square.jpg" alt="A girl with curly hair in a polka dot shirt">
         <p>My name is Sarah Thomas and I'm a physical therapist-turned-front-end developer in southern California. I've
           been a practicing PT for over five years and wanted to take my career in a more creative direction. I'm here
           to
@@ -58,8 +58,8 @@
           vector artist since 2018. Are you looking for a team player? I've been coordinating patient care with
           interdisciplinary teams my entire career. Are you looking for someone who can motivate, inspire, and get the
           job
-          done? Look no further. I've been convincing 90-year-olds to exercise for years! </p>
-        <p>My husband introduced me to HTML and I was immediately intrigued with the concept of coding. I've been a
+          done? Look no further. I've been convincing 90-year-olds to exercise for years!<br><br>
+          My husband introduced me to HTML and I was immediately intrigued with the concept of coding. I've been a
           hobby
           artist for years, and it gave me so much more freedom to build and design. Plus it adds a fun mental component
           - I love all the puzzles I get to solve when I code! When I'm not coding, I enjoy weight-lifting, creating
@@ -112,13 +112,16 @@
               alt="A home page for a website to screen a home for fall hazards called Home Checkup">
           </a>
           <button class="expand-project" id="home">Home Checkup</button>
-          <div class="project-description hide">
-            <p class="description">A React app that walks users through a screen of their home to assess for hazards
-              that
-              might contribute to falls. It provides a customized list of suggestions to improve the home at the end and
-              was built with seniors and their families in mind.</p>
-            <p><em>Skills:</em> React, CSS, JSX, Flexbox</p>
-            <p>Tools: Unsplash, Chat GPT, CDC STEADI program, Create React App, VS Code, Firebase, Git and Git Hub</p>
+          <div class="hide" id="home-description">
+            <div class="project-description">
+              <p>A React app that walks users through a screen of their home to assess for hazards
+                that might contribute to falls. It provides a customized list of suggestions to improve the home at the
+                end
+                and was built with seniors and their families in mind.</p>
+              <p><b>Skills:</b> React, CSS, JSX, Flexbox</p>
+              <p><b>Tools:</b> Unsplash, Chat GPT, CDC STEADI program, Create React App, VS Code, Firebase, Git and Git
+                Hub</p>
+            </div>
           </div>
         </div>
         <div class="project">
@@ -127,13 +130,15 @@
               alt="A picture of a rabbit at night with the game title Eight Journeys Marigold around it">
           </a>
           <button class="expand-project" id="marigold">Eight Journeys-Marigold</button>
-          <div class="project-description hide">
-            <p class="description">A choose-your-own-adventure game built with vanilla Javascript. The player guides a
-              rabbit through a series of choices, with eight possible endings. In addition to coding the site, I wrote
-              the
-              story and used the Dream by Wombo AI Art Generator to create the artwork.</p>
-            <p>Skills: HTML, CSS, Javascript</p>
-            <p>Tools: VS Code, Wombo Dream AI Art Generator, Git and Git hub</p>
+          <div class="hide" id="marigold-description">
+            <div class="project-description">
+              <p>A choose-your-own-adventure game built with vanilla Javascript. The player guides a
+                rabbit through a series of choices, with eight possible endings. In addition to coding the site, I wrote
+                the
+                story and used the Dream by Wombo AI Art Generator to create the artwork.</p>
+              <p><b>Skills:</b> HTML, CSS, Javascript</p>
+              <p><b>Tools:</b> VS Code, Wombo Dream AI Art Generator, Git and Git hub</p>
+            </div>
           </div>
         </div>
         <div class="project">
@@ -142,11 +147,13 @@
               alt="A tile with a woman and the caption 'Return from the Desk, Return Refreshed'">
           </a>
           <button class="expand-project" id="unplugged">Unplugged</button>
-          <div class="project-description hide">
-            <p class="description">A responsive website I created for a fictitious tech retreat company as a project
-              through Skillcrush. HTML, CSS, and flexbox were used.</p>
-            <p>Skills: HTML, CSS, Flexbox</p>
-            <p>Tools: VS Code, Git and Git hub</p>
+          <div class="hide" id="unplugged-description">
+            <div class="project-description">
+              <p>A responsive website I created for a fictitious tech retreat company as a project
+                through Skillcrush. HTML, CSS, and flexbox were used.</p>
+              <p><b>Skills:</b> HTML, CSS, Flexbox</p>
+              <p><b>Tools:</b> VS Code, Git and Git hub</p>
+            </div>
           </div>
         </div>
         <div class="project">
@@ -154,12 +161,15 @@
             <img src="./img/bean.PNG" alt="A pink logo on a black background for Mean Bean">
           </a>
           <button class="expand-project" id="bean">Mean Bean Brand Style Guide</button>
-          <div class="project-description hide">
-            <p class="description">A style guide I created for a fictitious coffee company as a project through
-              Skillcrush. Several programs in the Adobe Creative Suite were used (Photoshop, InDesign, and Illustrator).
-              Though not a coding project, I wanted to include this as an example of my design style.</p>
-            <p>Skills: Adobe InDesign, Adobe Illustrator, Adobe Photoshop</p>
-            <p>Tools: Google fonts, Various royalty-free photo websites</p>
+          <div class="hide" id="bean-description">
+            <div class="project-description">
+              <p>A style guide I created for a fictitious coffee company as a project through
+                Skillcrush. Several programs in the Adobe Creative Suite were used (Photoshop, InDesign, and
+                Illustrator).
+                Though not a coding project, I wanted to include this as an example of my design style.</p>
+              <p><b>Skills:</b> Adobe InDesign, Adobe Illustrator, Adobe Photoshop</p>
+              <p><b>Tools:</b> Google fonts, Various royalty-free photo websites</p>
+            </div>
           </div>
         </div>
       </div>
@@ -168,20 +178,22 @@
   <footer>
     <div class="content-wrapper">
       <div class="color-swatch" id="color-swatch5"></div>
-      <button>Contact</button>
-      <div class="hide content">
-        <p>sbade92@gmail.com</p>
-        <ul class="icon-list">
-          <li><a href="www.linkedin.com/in/sarah-thomas-74964634" target="_blank">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a></li>
-          <li><a href="https://github.com/Sarah-Thomas-992" target="_blank">
-              <i class="fa-brands fa-github"></i>
-            </a></li>
-          <li><a href="https://instagram.com/code_byppih z  _sarah_thomas?igshid=MmIzYWVlNDQ5Yg==" target="_blank">
-              <i class="fa-brands fa-instagram"></i>
-            </a></li>
-        </ul>
+      <button id="contact">Contact</button>
+      <div class="hide content" id="contact-section">
+        <div class="contact-info">
+          <p>sbade92@gmail.com</p>
+          <ul class="icon-list">
+            <li><a href="www.linkedin.com/in/sarah-thomas-74964634" target="_blank">
+              <i class="fa-brands fa-linkedin-in" style="color: #00a1a3;"></i>
+              </a></li>
+            <li><a href="https://github.com/Sarah-Thomas-992" target="_blank">
+              <i class="fa-brands fa-github" style="color: #00a1a3;"></i>
+              </a></li>
+            <li><a href="https://www.instagram.com/code_by_sarah_thomas/" target="_blank">
+              <i class="fa-brands fa-instagram" style="color: #00a1a3;"></i>
+              </a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
