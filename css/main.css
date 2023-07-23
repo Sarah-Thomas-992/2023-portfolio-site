@@ -129,12 +129,12 @@ p {
 
 header,
 footer,
-section,
 .header-words,
 .header-elements,
 .skills-lists,
 .project,
-.contact-info {
+.contact-info,
+.project-div {
   width: 100%;
 }
 
@@ -292,6 +292,7 @@ a img {
   width: 40%;
   list-style: none;
   padding: 0;
+  margin-bottom: 30px;
 }
 
 .icon-list a i {
@@ -405,17 +406,63 @@ a img {
   }
 
   .header-img {
-    width: 20vw;
+    width: 12vw;
   }
 
   .header-words {
-    width: 35vw;
+    width: 33vw;
   }
 
   .icon-list {
     width: 30%;
   }
 
+  .project-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .project {
+    width: 50vw;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  body {
+    font-size: 18px;
+  }
+
+  .header-img {
+    width: 8vw;
+  }
+
+  .header-words {
+    width: 24vw;
+  }
+
+  #about-me-section p {
+    width: 35%;
+  }
+
+  #about-me-img {
+    width: 35%;
+  }
+
+  .project-div {
+    justify-content: center;
+  }
+
+  .project {
+    width: 40vw;
+  }
+
+  .icon-list {
+    width: 20%;
+  }
 
 
 }
