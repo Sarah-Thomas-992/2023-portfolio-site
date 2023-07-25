@@ -52,37 +52,37 @@ projectButton.addEventListener("click", function(){
     }
 });
 
-homeButton.addEventListener("click", function(){
-    if (homeSection.classList.contains("hide")){
-        homeSection.classList.remove("hide");
-    } else {
-        homeSection.classList.add("hide");
-    }
-});
+// homeButton.addEventListener("click", function(){
+//     if (homeSection.classList.contains("hide")){
+//         homeSection.classList.remove("hide");
+//     } else {
+//         homeSection.classList.add("hide");
+//     }
+// });
 
-marigoldButton.addEventListener("click", function(){
-    if (marigoldSection.classList.contains("hide")){
-        marigoldSection.classList.remove("hide");
-    } else {
-        marigoldSection.classList.add("hide");
-    }
-});
+// marigoldButton.addEventListener("click", function(){
+//     if (marigoldSection.classList.contains("hide")){
+//         marigoldSection.classList.remove("hide");
+//     } else {
+//         marigoldSection.classList.add("hide");
+//     }
+// });
 
-unpluggedButton.addEventListener("click", function(){
-    if (unpluggedSection.classList.contains("hide")){
-        unpluggedSection.classList.remove("hide");
-    } else {
-        unpluggedSection.classList.add("hide");
-    }
-});
+// unpluggedButton.addEventListener("click", function(){
+//     if (unpluggedSection.classList.contains("hide")){
+//         unpluggedSection.classList.remove("hide");
+//     } else {
+//         unpluggedSection.classList.add("hide");
+//     }
+// });
 
-beanButton.addEventListener("click", function(){
-    if (beanSection.classList.contains("hide")){
-        beanSection.classList.remove("hide");
-    } else {
-        beanSection.classList.add("hide");
-    }
-});
+// beanButton.addEventListener("click", function(){
+//     if (beanSection.classList.contains("hide")){
+//         beanSection.classList.remove("hide");
+//     } else {
+//         beanSection.classList.add("hide");
+//     }
+// });
 
 contactButton.addEventListener("click", function(){
     if (contactSection.classList.contains("hide")){

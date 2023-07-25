@@ -152,6 +152,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
+  font-size: 0.9em;
 }
 
 button:hover {
@@ -183,6 +184,10 @@ button:hover {
 
 #color-swatch5 {
   background-color: #b7f4f3;
+}
+
+#color-swatch6 {
+  background-color: #d4f7f7;
 }
 
 /* Specific Styles */
@@ -300,6 +305,10 @@ a img {
 }
 
 .icon-list a {
+  text-decoration: none;
+}
+
+.expand-project:hover{
   text-decoration: none;
 }
 
