@@ -9,10 +9,10 @@ const color5 = document.querySelector("#color-swatch5");
 const aboutButton = document.querySelector("#about-me-button");
 const skillsButton = document.querySelector("#skills-button");
 const projectButton = document.querySelector("#project-button");
-const homeButton = document.querySelector("#home");
-const marigoldButton = document.querySelector("#marigold");
-const unpluggedButton = document.querySelector("#unplugged");
-const beanButton = document.querySelector("#bean");
+// const homeButton = document.querySelector("#home");
+// const marigoldButton = document.querySelector("#marigold");
+// const unpluggedButton = document.querySelector("#unplugged");
+// const beanButton = document.querySelector("#bean");
 const contactButton = document.querySelector("#contact");
 
 
