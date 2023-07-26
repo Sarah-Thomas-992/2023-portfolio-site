@@ -1,9 +1,9 @@
 // Color Swatch Variables
-const color1 = document.querySelector("#color-swatch1");
-const color2 = document.querySelector("#color-swatch2");
-const color3 = document.querySelector("#color-swatch3");
-const color4 = document.querySelector("#color-swatch4");
-const color5 = document.querySelector("#color-swatch5");
+// const color1 = document.querySelector("#color-swatch1");
+// const color2 = document.querySelector("#color-swatch2");
+// const color3 = document.querySelector("#color-swatch3");
+// const color4 = document.querySelector("#color-swatch4");
+// const color5 = document.querySelector("#color-swatch5");
 
 // Button Variables
 const aboutButton = document.querySelector("#about-me-button");
