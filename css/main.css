@@ -286,6 +286,7 @@ a img {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin-top: 10px;
 }
 
 .contact-info p {
@@ -312,6 +313,12 @@ a img {
 
 .expand-project:hover{
   text-decoration: none;
+}
+
+h3 {
+  font-size: 0.7em;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 /* ==========================================================================
